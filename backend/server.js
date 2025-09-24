@@ -12,7 +12,8 @@ app.use(express.json())
 let products, users
 
 async function run() {
-    const client = new MongoClient("mongodb+srv://popoacageo07:g.4367eo@geo7p.cfgyttn.mongodb.net/?retryWrites=true&w=majority&appName=geo7p")
+    const server = await MongoMemoryServer.create()
+    const client = new MongoClient(server.getUri())
     await client.connect()
 
     const db = await client.db("store4U")
@@ -52,3 +53,4 @@ async function run() {
 }
 
 run()
+
