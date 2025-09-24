@@ -1,0 +1,13 @@
+.products-list-frame {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    box-shadow: 0 0 50px black;
+    border-radius: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-right: 7.5%;
+    width: 60%;
+    float: right;
+}

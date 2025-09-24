@@ -1,0 +1,60 @@
+body {
+  background: linear-gradient(180deg, #00aaaa, #aa00aa);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+}
+
+.navbar {
+  z-index: 10;
+}
+
+.welcome {
+    text-align: center;
+    font-family: 'Gotham Black';
+    margin-top: 50px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+
+    border-radius: 20px;
+    box-shadow: 0 5px 20px black;
+    z-index: 0;
+}
+
+.frame {
+    width: 100%;
+    height: 1000px;
+    z-index: 0;
+}
+
+@media(max-width: 900px) {
+  .app-header {
+    height: 30px;
+  }
+
+  .app-header-logo {
+    width: 33px;
+  }
+
+  .app-header-title {
+    font-size: 27.5px;
+  }
+
+  .app-user-button {
+    width: 33px;
+  }
+
+  .app-search-bar {
+      width: 250px;
+  }
+
+  .app-search-text {
+      width: 50%;
+  }
+
+  .app-search-button {
+      width: 25%;
+  }
+}

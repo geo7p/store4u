@@ -1,0 +1,9 @@
+.uo-frame {
+    z-index: 10;
+    background: white;
+    float: right;
+    border-radius: 20px;
+    width: 300px;
+    height: 350px;
+    margin-right: 4%;
+}

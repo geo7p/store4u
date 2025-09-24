@@ -1,0 +1,144 @@
+.form-body {
+    float: left;
+    margin-top: 25%;
+    height: 65%;
+    width: 400px;
+    border-radius: 50px;
+    box-shadow: 0 20px 50px black;
+}
+
+.form-title {
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Gotham Black';
+    margin-top: 50px;
+}
+
+.signup-form-title {
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Gotham Black';
+    margin-top: 20px;
+}
+
+input {
+    width: 97.5%;
+    height: 20px;
+    font-family: 'Gotham';
+    background: none;
+    border-radius: 20px;
+    box-shadow: 0 10px 50px black;
+    border: none;
+    outline: none;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+input::placeholder {
+    color: black;
+}
+
+.name-input {
+    float: left;
+    width: 40%;
+}
+
+.surname-input {
+    float: right;
+    width: 40%;
+}
+
+.name-surname {
+    margin-top: 10px;
+}
+
+.form-content {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+
+.signup-form-content {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.button-div {
+    width: 75px;
+    height: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button {
+    margin-left: auto;
+    margin-right: auto;
+    width: 75px;
+    height: 25px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0 5px 20px black;
+    background: none;
+
+    font-family: 'Gotham Black'
+}
+
+.info {
+    margin-top: 30px;
+    width: 100%;
+    height: 20px;
+
+    font-family: 'Gotham';
+    color: #550000;
+    text-align: center;
+
+}
+
+.sign-up {
+    margin-top: 20px;
+    width: 100%;
+}
+
+.log-in {
+    margin-top: 30px;
+    width: 100%;
+    height: 10px;
+}
+
+.sign-up-text {
+    float: left;
+    font-family: 'Gotham';
+    font-size: 12px;
+    text-align: right;
+}
+
+.button-sign-up {
+    float: right;
+    height: 20px;
+    width: 75px;
+}
+
+@media(max-width: 1200px) {
+    .form-body {
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30px;
+        height: 75%;
+        width: 400px;
+    }
+    .signup-form-body {
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30px;
+        height: 75%;
+        width: 400px;
+    }
+    .form-title {
+        margin-top: 50px;
+    }
+}
